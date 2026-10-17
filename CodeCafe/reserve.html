@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=1060">
+  <meta name="description" content="احجز طاولتك أو مساحة عملك في Code Café - مقهى المبرمجين في غزة.">
+  <meta name="keywords" content="حجز طاولة, Code Café, مساحة عمل, مقهى, غزة">
+  <meta name="author" content="فادي طه">
+  <title>احجز طاولة | Code Café</title>
+  <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+
+<body bgcolor="#F7F1E8" background="images/bg-beans.png" text="#3B2A20" link="#8B5E3C" vlink="#8B5E3C" alink="#D4A373" topmargin="0" leftmargin="0" rightmargin="0" bottommargin="0" marginwidth="0" marginheight="0">
+
+<!-- ================= الهيدر: شريط المعلومات + القائمة ================= -->
+<header id="top">
+
+  <!-- شريط المعلومات العلوي -->
+  <table width="100%" cellpadding="8" cellspacing="0" border="0" bgcolor="#160D08">
+    <tr>
+      <td align="center">
+        <table width="1000" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td align="right">
+              <font face="Segoe UI, Tahoma, Arial" size="2" color="#C8A27A">
+                &#128205; غزة - شارع الجامعة، مقابل الجامعة الإسلامية
+                &nbsp;&nbsp;|&nbsp;&nbsp;
+                &#128339; يومياً من 7:00 صباحاً حتى 12:00 منتصف الليل
+              </font>
+            </td>
+            <td align="left">
+              <font face="Segoe UI, Tahoma, Arial" size="2" color="#C8A27A">
+                &#128222; <a href="tel:+970599123456" title="اتصل بنا"><font color="#E6C79C">0599-123-456</font></a>
+              </font>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <!-- شريط التنقل الرئيسي -->
+  <nav>
+    <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#2B1B14">
+      <tr>
+        <td align="center">
+          <table width="1000" cellpadding="10" cellspacing="0" border="0">
+            <tr>
+              <td width="76">
+                <a href="index.html"><img src="images/logo.png" width="72" height="72" alt="شعار Code Café" title="Code Café"></a>
+              </td>
+              <td>
+                <font face="Segoe UI, Tahoma, Arial" size="6" color="#F3E3C3"><b>Code Café</b></font><br>
+                <font dir="ltr" face="Consolas, Courier New, monospace" size="2" color="#D4A373">brew(); code(); repeat();</font>
+              </td>
+              <td align="left">
+                <table cellpadding="9" cellspacing="2" border="0">
+                  <tr>
+                    <td><a href="index.html" title="الصفحة الرئيسية"><font face="Segoe UI, Tahoma, Arial" size="3" color="#E6C79C">الرئيسية</font></a></td>
+                    <td><a href="index.html#menu" title="قائمة المشروبات"><font face="Segoe UI, Tahoma, Arial" size="3" color="#E6C79C">القائمة</font></a></td>
+                    <td><a href="index.html#about" title="تعرّف علينا"><font face="Segoe UI, Tahoma, Arial" size="3" color="#E6C79C">من نحن</font></a></td>
+                    <td><a href="index.html#spaces" title="مساحات العمل"><font face="Segoe UI, Tahoma, Arial" size="3" color="#E6C79C">المساحات</font></a></td>
+                    <td><a href="index.html#contact" title="تواصل معنا"><font face="Segoe UI, Tahoma, Arial" size="3" color="#E6C79C">تواصل معنا</font></a></td>
+                    <td bgcolor="#D4A373"><a href="reserve.html" title="احجز طاولتك"><font face="Segoe UI, Tahoma, Arial" size="3" color="#21140D"><b>&#9749; احجز طاولة</b></font></a></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </nav>
+
+  <!-- خط ذهبي فاصل -->
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#D4A373"><tr><td height="3"></td></tr></table>
+</header>
+
+<main>
+
+<!-- ================= عنوان الصفحة ================= -->
+<section id="reserve-banner">
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#21140D" background="images/pattern-dark.jpg">
+    <tr>
+      <td align="center">
+        <table width="1000" cellpadding="0" cellspacing="0" border="0">
+          <tr>
+            <td valign="middle">
+              <br>
+              <!-- مسار التنقل -->
+              <font face="Segoe UI, Tahoma, Arial" size="2" color="#C8B6A6">
+                <a href="index.html"><font color="#D4A373">الرئيسية</font></a>
+                &nbsp;&#8249;&nbsp; احجز طاولة
+              </font>
+
+              <h1><font face="Segoe UI, Tahoma, Arial" size="7" color="#FFF8EE">احجز طاولتك</font></h1>
+              <p>
+                <font face="Segoe UI, Tahoma, Arial" size="4" color="#E9DCCB">
+                  اختار الوقت والمساحة اللي بتناسبك، وإحنا بنجهّزلك كل شي...<br>
+                  حتى القهوة بتكون جاهزة لحظة وصولك!
+                </font>
+              </p>
+
+              <!-- خطوات الحجز -->
+              <table cellpadding="0" cellspacing="0" border="0">
+                <tr>
+                  <td bgcolor="#D4A373">
+                    <table cellpadding="8" cellspacing="0" border="0"><tr><td><font face="Segoe UI, Tahoma, Arial" size="2" color="#21140D"><b>&nbsp;1 &nbsp;املأ بياناتك&nbsp;</b></font></td></tr></table>
+                  </td>
+                  <td><font size="3" color="#6F4E37">&nbsp;&#8212;&#8212;&nbsp;</font></td>
+                  <td>
+                    <table cellpadding="7" cellspacing="0" border="1" bordercolor="#6F4E37" rules="none"><tr><td><font face="Segoe UI, Tahoma, Arial" size="2" color="#E6C79C">&nbsp;2 &nbsp;أكّد الحجز&nbsp;</font></td></tr></table>
+                  </td>
+                  <td><font size="3" color="#6F4E37">&nbsp;&#8212;&#8212;&nbsp;</font></td>
+                  <td>
+                    <table cellpadding="7" cellspacing="0" border="1" bordercolor="#6F4E37" rules="none"><tr><td><font face="Segoe UI, Tahoma, Arial" size="2" color="#E6C79C">&nbsp;3 &nbsp;استمتع بقهوتك &#9749;&nbsp;</font></td></tr></table>
+                  </td>
+                </tr>
+              </table>
+              <br>
+            </td>
+            <td width="420" align="center" valign="bottom">
+              <img src="images/reserve-art.png" width="400" height="300" alt="تقويم حجز وفنجان قهوة وبطاقة محجوز">
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</section>
+
+<!-- ================= نموذج الحجز + معلومات جانبية ================= -->
+<section id="booking">
+  <br><br>
+  <table width="1000" align="center" cellpadding="0" cellspacing="0" border="0">
+    <tr valign="top">
+
+      <!-- ===== العمود الأول: نموذج الحجز ===== -->
+      <td width="640">
+        <table width="100%" cellpadding="0" cellspacing="0" border="1" bordercolor="#EADBC8" rules="none" bgcolor="#FFFFFF">
+          <tr>
+            <td>
+              <table width="100%" cellpadding="28" cellspacing="0" border="0">
+                <tr>
+                  <td>
+                    <font dir="ltr" face="Consolas, Courier New, monospace" size="3" color="#B07A4A"><b>// booking.form</b></font>
+                    <h2><font face="Segoe UI, Tahoma, Arial" size="5" color="#2B1B14">نموذج حجز طاولة</font></h2>
+                    <font face="Segoe UI, Tahoma, Arial" size="2" color="#9C8574">الحقول المعلّمة بـ <font color="#C0392B"><b>*</b></font> مطلوبة</font>
+                    <br><br>
+
+                    <form action="thanks.html" method="get">
+
+                      <!-- 1) البيانات الشخصية -->
+                      <fieldset>
+                        <legend><font face="Segoe UI, Tahoma, Arial" size="4" color="#8B5E3C"><b>&nbsp;&#128100; البيانات الشخصية&nbsp;</b></font></legend>
+                        <table width="100%" cellpadding="8" cellspacing="0" border="0">
+                          <tr>
+                            <td width="50%">
+                              <label for="fullname"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>الاسم الكامل</b> <font color="#C0392B">*</font></font></label><br>
+                              <input type="text" id="fullname" name="fullname" size="32" placeholder="مثال: فادي طه" minlength="3" maxlength="40" required autofocus>
+                            </td>
+                            <td width="50%">
+                              <label for="phone"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>رقم الجوال</b> <font color="#C0392B">*</font></font></label><br>
+                              <input type="tel" id="phone" name="phone" size="32" placeholder="059xxxxxxx" pattern="05[69][0-9]{7}" title="رقم جوال من 10 أرقام يبدأ بـ 059 أو 056" required dir="ltr">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label for="email"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>البريد الإلكتروني</b> <font color="#C0392B">*</font></font></label><br>
+                              <input type="email" id="email" name="email" size="32" placeholder="name@example.com" required dir="ltr">
+                            </td>
+                            <td>
+                              <label for="university"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>الجامعة / جهة العمل</b></font></label><br>
+                              <input type="text" id="university" name="university" size="32" list="universities" placeholder="ابدأ الكتابة للاختيار...">
+                              <datalist id="universities">
+                                <option value="الجامعة الإسلامية بغزة">
+                                <option value="جامعة الأزهر - غزة">
+                                <option value="جامعة الأقصى">
+                                <option value="الكلية الجامعية للعلوم التطبيقية">
+                                <option value="مبرمج مستقل (Freelancer)">
+                              </datalist>
+                            </td>
+                          </tr>
+                        </table>
+                      </fieldset>
+                      <br>
+
+                      <!-- 2) تفاصيل الحجز -->
+                      <fieldset>
+                        <legend><font face="Segoe UI, Tahoma, Arial" size="4" color="#8B5E3C"><b>&nbsp;&#128197; تفاصيل الحجز&nbsp;</b></font></legend>
+                        <table width="100%" cellpadding="8" cellspacing="0" border="0">
+                          <tr>
+                            <td width="50%">
+                              <label for="date"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>تاريخ الحجز</b> <font color="#C0392B">*</font></font></label><br>
+                              <input type="date" id="date" name="date" min="2026-10-01" max="2027-12-31" required>
+                            </td>
+                            <td width="50%">
+                              <label for="time"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>وقت الوصول</b> <font color="#C0392B">*</font></font></label><br>
+                              <input type="time" id="time" name="time" min="07:00" max="23:00" step="1800" required>
+                              <br><font face="Segoe UI, Tahoma, Arial" size="1" color="#9C8574">من 7:00 صباحاً حتى 11:00 مساءً</font>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <label for="guests"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>عدد الأشخاص</b> <font color="#C0392B">*</font></font></label><br>
+                              <input type="number" id="guests" name="guests" min="1" max="24" value="2" required>
+                            </td>
+                            <td>
+                              <label for="duration"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>مدة الجلسة</b></font></label><br>
+                              <select id="duration" name="duration">
+                                <option value="1">ساعة واحدة</option>
+                                <option value="2" selected>ساعتان</option>
+                                <option value="3">3 ساعات</option>
+                                <option value="4">4 ساعات</option>
+                                <option value="day">يوم كامل</option>
+                              </select>
+                            </td>
+                          </tr>
+                        </table>
+
+                        <!-- اختيار المساحة (الضغط على الصورة يختار الخيار) -->
+                        <table width="100%" cellpadding="8" cellspacing="0" border="0">
+                          <tr>
+                            <td colspan="3"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>نوع المساحة</b> <font color="#C0392B">*</font></font></td>
+                          </tr>
+                          <tr align="center" valign="top">
+                            <td width="33%">
+                              <label for="space-quiet">
+                                <img src="images/space-quiet.jpg" width="170" height="113" alt="المنطقة الهادئة"><br>
+                                <input type="radio" id="space-quiet" name="space" value="quiet" checked required>
+                                <font face="Segoe UI, Tahoma, Arial" size="2"><b>المنطقة الهادئة</b></font><br>
+                                <font face="Segoe UI, Tahoma, Arial" size="1" color="#9C8574">5 &#8362; / الساعة</font>
+                              </label>
+                            </td>
+                            <td width="33%">
+                              <label for="space-team">
+                                <img src="images/space-team.jpg" width="170" height="113" alt="منطقة الفرق"><br>
+                                <input type="radio" id="space-team" name="space" value="team">
+                                <font face="Segoe UI, Tahoma, Arial" size="2"><b>منطقة الفرق</b></font><br>
+                                <font face="Segoe UI, Tahoma, Arial" size="1" color="#9C8574">20 &#8362; / الساعة</font>
+                              </label>
+                            </td>
+                            <td width="33%">
+                              <label for="space-hall">
+                                <img src="images/space-hall.jpg" width="170" height="113" alt="قاعة الورش"><br>
+                                <input type="radio" id="space-hall" name="space" value="hall">
+                                <font face="Segoe UI, Tahoma, Arial" size="2"><b>قاعة الورش</b></font><br>
+                                <font face="Segoe UI, Tahoma, Arial" size="1" color="#9C8574">60 &#8362; / الساعة</font>
+                              </label>
+                            </td>
+                          </tr>
+                        </table>
+                      </fieldset>
+                      <br>
+
+                      <!-- 3) الإضافات والطلب المسبق -->
+                      <fieldset>
+                        <legend><font face="Segoe UI, Tahoma, Arial" size="4" color="#8B5E3C"><b>&nbsp;&#9881; إضافات وطلب مسبق&nbsp;</b></font></legend>
+                        <table width="100%" cellpadding="6" cellspacing="0" border="0">
+                          <tr>
+                            <td width="50%">
+                              <input type="checkbox" id="monitor" name="extras" value="monitor">
+                              <label for="monitor"><font face="Segoe UI, Tahoma, Arial" size="2">&#128421; شاشة خارجية إضافية</font></label>
+                            </td>
+                            <td width="50%">
+                              <input type="checkbox" id="whiteboard" name="extras" value="whiteboard">
+                              <label for="whiteboard"><font face="Segoe UI, Tahoma, Arial" size="2">&#128221; سبّورة بيضاء وأقلام</font></label>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <input type="checkbox" id="charger" name="extras" value="charger">
+                              <label for="charger"><font face="Segoe UI, Tahoma, Arial" size="2">&#128268; شاحن لابتوب احتياطي</font></label>
+                            </td>
+                            <td>
+                              <input type="checkbox" id="power-seat" name="extras" value="power-seat" checked>
+                              <label for="power-seat"><font face="Segoe UI, Tahoma, Arial" size="2">&#9889; طاولة قريبة من مقبس الكهرباء</font></label>
+                            </td>
+                          </tr>
+                        </table>
+                        <br>
+                        <table width="100%" cellpadding="8" cellspacing="0" border="0">
+                          <tr>
+                            <td>
+                              <label for="drink"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20"><b>جهّزولي مشروبي قبل ما أوصل:</b></font></label><br>
+                              <select id="drink" name="drink">
+                                <option value="none">بدون طلب مسبق</option>
+                                <optgroup label="&#9749; مشروبات ساخنة">
+                                  <option value="espresso">إسبريسو - 6 &#8362;</option>
+                                  <option value="americano">أمريكانو - 7 &#8362;</option>
+                                  <option value="latte">جافا لاتيه - 9 &#8362;</option>
+                                  <option value="cappuccino">كابتشينو - 9 &#8362;</option>
+                                  <option value="mocha">موكا - 10 &#8362;</option>
+                                </optgroup>
+                                <optgroup label="&#129482; مشروبات باردة">
+                                  <option value="iced-latte">آيس لاتيه - 10 &#8362;</option>
+                                  <option value="cold-brew">كولد برو - 11 &#8362;</option>
+                                  <option value="frappe">فرابيه كراميل - 12 &#8362;</option>
+                                </optgroup>
+                                <optgroup label="&#127856; حلويات">
+                                  <option value="croissant">كرواسون بالزبدة - 5 &#8362;</option>
+                                  <option value="cake">كيكة 404 - 9 &#8362;</option>
+                                </optgroup>
+                              </select>
+                            </td>
+                          </tr>
+                        </table>
+                      </fieldset>
+                      <br>
+
+                      <!-- 4) ملاحظات -->
+                      <fieldset>
+                        <legend><font face="Segoe UI, Tahoma, Arial" size="4" color="#8B5E3C"><b>&nbsp;&#128172; ملاحظات إضافية&nbsp;</b></font></legend>
+                        <table width="100%" cellpadding="8" cellspacing="0" border="0">
+                          <tr>
+                            <td>
+                              <label for="notes"><font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2A20">بدك تحكيلنا عن شي معيّن؟ (اختياري)</font></label><br>
+                              <textarea id="notes" name="notes" rows="4" cols="72" maxlength="300" placeholder="مثال: عندنا عرض لمشروع التخرج وبدنا شاشة عرض كبيرة..."></textarea>
+                            </td>
+                          </tr>
+                        </table>
+                      </fieldset>
+                      <br>
+
+                      <!-- حقل مخفي يحدّد مصدر الحجز -->
+                      <input type="hidden" name="source" value="website">
+
+                      <!-- الموافقة على الشروط -->
+                      <input type="checkbox" id="agree" name="agree" value="yes" required>
+                      <label for="agree"><font face="Segoe UI, Tahoma, Arial" size="2">أوافق على <b>سياسة الحجز</b>، وأعلم أن الحجز يُلغى تلقائياً إذا تأخرت أكثر من 30 دقيقة. <font color="#C0392B">*</font></font></label>
+                      <br><br>
+
+                      <!-- أزرار الإرسال والمسح -->
+                      <table cellpadding="0" cellspacing="0" border="0">
+                        <tr>
+                          <td>
+                            <button type="submit"><font face="Segoe UI, Tahoma, Arial" size="4" color="#21140D"><b>&nbsp;&#10004; تأكيد الحجز&nbsp;</b></font></button>
+                          </td>
+                          <td width="12"></td>
+                          <td>
+                            <button type="reset"><font face="Segoe UI, Tahoma, Arial" size="3" color="#6F4E37">&nbsp;&#8634; مسح الحقول&nbsp;</font></button>
+                          </td>
+                        </tr>
+                      </table>
+
+                    </form>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+      </td>
+
+      <td width="24"></td>
+
+      <!-- ===== العمود الثاني: معلومات جانبية ===== -->
+      <td>
+        <aside>
+          <!-- بطاقة ساعات العمل -->
+          <table width="100%" cellpadding="22" cellspacing="0" border="0" bgcolor="#2B1B14">
+            <tr>
+              <td>
+                <img src="images/icon-clock.png" width="56" height="56" alt="أيقونة الساعة">
+                <h3><font face="Segoe UI, Tahoma, Arial" size="4" color="#F3E3C3">ساعات العمل</font></h3>
+                <table width="100%" cellpadding="6" cellspacing="0" border="0">
+                  <tr>
+                    <td><font face="Segoe UI, Tahoma, Arial" size="2" color="#C8B6A6">السبت - الخميس</font></td>
+                    <td align="left"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E6C79C"><b>7:00 ص - 12:00 ليلاً</b></font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Segoe UI, Tahoma, Arial" size="2" color="#C8B6A6">الجمعة</font></td>
+                    <td align="left"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E6C79C"><b>2:00 م - 12:00 ليلاً</b></font></td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <br>
+
+          <!-- بطاقة أسعار المساحات -->
+          <table width="100%" cellpadding="22" cellspacing="0" border="1" bordercolor="#EADBC8" rules="none" bgcolor="#FFFFFF">
+            <tr>
+              <td>
+                <h3><font face="Segoe UI, Tahoma, Arial" size="4" color="#2B1B14">&#128176; أسعار المساحات</font></h3>
+                <table width="100%" cellpadding="8" cellspacing="0" border="1" bordercolor="#EADBC8" rules="rows" frame="void">
+                  <tr>
+                    <td><font face="Segoe UI, Tahoma, Arial" size="2">&#127911; المنطقة الهادئة</font></td>
+                    <td align="left"><font face="Segoe UI, Tahoma, Arial" size="2" color="#8B5E3C"><b>5 &#8362;/ساعة</b></font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Segoe UI, Tahoma, Arial" size="2">&#128101; منطقة الفرق</font></td>
+                    <td align="left"><font face="Segoe UI, Tahoma, Arial" size="2" color="#8B5E3C"><b>20 &#8362;/ساعة</b></font></td>
+                  </tr>
+                  <tr>
+                    <td><font face="Segoe UI, Tahoma, Arial" size="2">&#127908; قاعة الورش</font></td>
+                    <td align="left"><font face="Segoe UI, Tahoma, Arial" size="2" color="#8B5E3C"><b>60 &#8362;/ساعة</b></font></td>
+                  </tr>
+                </table>
+                <br>
+                <font face="Segoe UI, Tahoma, Arial" size="2" color="#3E8E5E"><b>&#127891; خصم 20% للطلاب على كل المساحات</b></font>
+              </td>
+            </tr>
+          </table>
+          <br>
+
+          <!-- بطاقة ملاحظات قبل الحجز -->
+          <table width="100%" cellpadding="22" cellspacing="0" border="1" bordercolor="#EADBC8" rules="none" bgcolor="#FFFFFF">
+            <tr>
+              <td>
+                <h3><font face="Segoe UI, Tahoma, Arial" size="4" color="#2B1B14">&#128204; قبل ما تحجز</font></h3>
+                <ul>
+                  <li><font face="Segoe UI, Tahoma, Arial" size="2" color="#5A4536">بتوصلك رسالة تأكيد خلال 30 دقيقة.</font></li>
+                  <li><font face="Segoe UI, Tahoma, Arial" size="2" color="#5A4536">الحجز محفوظ لمدة 30 دقيقة من وقت الوصول.</font></li>
+                  <li><font face="Segoe UI, Tahoma, Arial" size="2" color="#5A4536">تقدر تلغي أو تعدّل حجزك قبل ساعتين.</font></li>
+                  <li><font face="Segoe UI, Tahoma, Arial" size="2" color="#5A4536">قاعة الورش تحتاج حجز قبل يوم على الأقل.</font></li>
+                </ul>
+              </td>
+            </tr>
+          </table>
+          <br>
+
+          <!-- بطاقة المساعدة -->
+          <table width="100%" cellpadding="22" cellspacing="0" border="0" bgcolor="#D4A373">
+            <tr>
+              <td>
+                <h3><font face="Segoe UI, Tahoma, Arial" size="4" color="#21140D">&#128587; محتاج مساعدة؟</font></h3>
+                <font face="Segoe UI, Tahoma, Arial" size="2" color="#3B2618">فريقنا جاهز يرد على أسئلتك:</font><br><br>
+                <font face="Segoe UI, Tahoma, Arial" size="3">&#128222; <a href="tel:+970599123456"><font color="#21140D"><b>0599-123-456</b></font></a></font><br><br>
+                <font face="Segoe UI, Tahoma, Arial" size="3">&#9993; <a href="mailto:hello@codecafe.ps"><font color="#21140D"><b>hello@codecafe.ps</b></font></a></font>
+              </td>
+            </tr>
+          </table>
+        </aside>
+      </td>
+    </tr>
+  </table>
+  <br><br><br>
+</section>
+
+</main>
+
+<!-- ================= التذييل (Footer) ================= -->
+<footer>
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#160D08" background="images/pattern-dark.jpg">
+    <tr>
+      <td align="center">
+        <br><br>
+        <table width="1000" cellpadding="12" cellspacing="0" border="0">
+          <tr valign="top">
+            <td width="34%">
+              <img src="images/logo.png" width="96" height="96" alt="شعار Code Café"><br>
+              <font face="Segoe UI, Tahoma, Arial" size="2" color="#C8B6A6">مقهى ومساحة عمل للمبرمجين والطلاب في قلب غزة. قهوة مختصة، إنترنت سريع، ومجتمع بيحب الكود.</font>
+            </td>
+            <td width="22%">
+              <font face="Segoe UI, Tahoma, Arial" size="4" color="#D4A373"><b>روابط سريعة</b></font>
+              <hr width="40" size="2" color="#D4A373" align="right" noshade>
+              <a href="index.html"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">&#8249; الرئيسية</font></a><br><br>
+              <a href="index.html#menu"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">&#8249; قائمة المشروبات</font></a><br><br>
+              <a href="index.html#spaces"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">&#8249; مساحات العمل</font></a><br><br>
+              <a href="reserve.html"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">&#8249; احجز طاولة</font></a>
+            </td>
+            <td width="22%">
+              <font face="Segoe UI, Tahoma, Arial" size="4" color="#D4A373"><b>ساعات العمل</b></font>
+              <hr width="40" size="2" color="#D4A373" align="right" noshade>
+              <font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">السبت - الخميس<br><b>7:00 ص - 12:00 ليلاً</b><br><br>الجمعة<br><b>2:00 م - 12:00 ليلاً</b></font>
+            </td>
+            <td width="22%">
+              <font face="Segoe UI, Tahoma, Arial" size="4" color="#D4A373"><b>تابعنا</b></font>
+              <hr width="40" size="2" color="#D4A373" align="right" noshade>
+              <a href="https://www.facebook.com" target="_blank"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">Facebook</font></a><br><br>
+              <a href="https://www.instagram.com" target="_blank"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">Instagram</font></a><br><br>
+              <a href="https://github.com" target="_blank"><font face="Segoe UI, Tahoma, Arial" size="2" color="#E9DCCB">GitHub</font></a>
+            </td>
+          </tr>
+        </table>
+
+        <br>
+        <hr width="1000" size="1" color="#3B2618" noshade>
+        <br>
+
+        <!-- توقيع المصمم -->
+        <table cellpadding="18" cellspacing="0" border="1" bordercolor="#6F4E37" rules="none" bgcolor="#1E120C">
+          <tr>
+            <td align="center">
+              <font dir="ltr" face="Consolas, Courier New, monospace" size="2" color="#8B6B55">&lt;designer&gt;</font><br>
+              <font face="Segoe UI, Tahoma, Arial" size="3" color="#C8A27A">&#10022;&nbsp; تصميم وإنشاء &nbsp;&#10022;</font><br>
+              <font face="Segoe UI, Tahoma, Arial" size="6" color="#FFF8EE"><b>فادي طه</b></font>
+              <hr width="90" size="2" color="#D4A373" noshade>
+              <font face="Segoe UI, Tahoma, Arial" size="2" color="#C8B6A6">صُنع بكل حب و&#9749; باستخدام HTML فقط</font><br>
+              <font dir="ltr" face="Consolas, Courier New, monospace" size="2" color="#8B6B55">&lt;/designer&gt;</font>
+            </td>
+          </tr>
+        </table>
+
+        <br>
+        <font face="Segoe UI, Tahoma, Arial" size="2" color="#8B7666">جميع الحقوق محفوظة &copy; 2026 Code Café</font>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <a href="#top"><font face="Segoe UI, Tahoma, Arial" size="2" color="#D4A373">&#8593; العودة للأعلى</font></a>
+        <br><br>
+      </td>
+    </tr>
+  </table>
+</footer>
+
+</body>
+</html>
